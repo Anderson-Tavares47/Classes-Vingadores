@@ -19,7 +19,7 @@ const sum = arr.reduce(function (total, next) {
   return total + next;
 });
 
-//reduce irá receber o valor de cada item e fazer uma equação com o proximo item, n~]ao ira retornar um arrayS
+//reduce irá recebero valor de cada item e fazer uma equação com o proximo item, n~]ao ira retornar um arrayS
 
 const filter = arr.filter(function (item) {
   return item % 2 === 0;
